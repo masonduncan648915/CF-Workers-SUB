@@ -4,12 +4,14 @@
 let mytoken = 'sub8888'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken ='6058856589:AAEf9PKbwpoDo-l6BstAdht8w7x3SatGIyo'; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID ='1171572159'; //可以为空，或者@userinfobot中获取，/start
-let TG = 1; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
+let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
 let SUBUpdateTime = 1; //自定义订阅更新时间，单位小时
 
 //节点链接 + 订阅链接
 let MainData = `
+http://42.51.18.22:3120/api/v1/client/subscribe?token=a415c0fee29a4f866f4a65863ddf7571
+https://ww5271.xyz/rss/2KepNfJ/DnK8p-?net_type=ALL
 
 `
 
