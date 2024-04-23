@@ -6,11 +6,11 @@ let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，�
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
-let SUBUpdateTime = 1; //自定义订阅更新时间，单位小时
+let SUBUpdateTime = 24; //自定义订阅更新时间，单位小时
 
 //节点链接 + 订阅链接
 let MainData = `
-https://v1.mk/S6M2VEs
+https://v1.mk/0XTDjfJ
 `
 
 //请将机场订阅链接填入上方
